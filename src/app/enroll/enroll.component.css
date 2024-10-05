@@ -1,0 +1,15 @@
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-control, .form-select, .input-group {
+    max-width: 50%;
+}
+
+@media (max-width: 768px) {
+    .form-control, .form-select, .input-group {
+        max-width: 100%;
+    }
+}
+

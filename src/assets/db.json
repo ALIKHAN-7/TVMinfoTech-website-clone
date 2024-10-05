@@ -1,0 +1,24 @@
+{
+  "enrollments": [
+    {
+      "id": "1d1c",
+      "fullName": "asda",
+      "email": "hai@gmail.com",
+      "mobile": 345678,
+      "collegeName": "ali",
+      "interestedTech": "softwareTechnology",
+      "comments": "haii",
+      "resumeUpload": null
+    },
+    {
+      "id": "0765",
+      "fullName": "asda",
+      "email": "hai@gmail.com",
+      "mobile": 345678,
+      "collegeName": "",
+      "interestedTech": "",
+      "comments": "",
+      "resumeUpload": null
+    }
+  ]
+}

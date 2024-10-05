@@ -1,0 +1,65 @@
+<header class="bg-light p-3">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center logo">
+                <img src="assets/tvmnew.png" alt="logo" class="img-fluid " style="max-height: 80px; " (click)="onTvm()">
+            </div>
+
+            <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center me-3">
+                    <img src="assets/email2.png" alt="email" class="img-fluid" style="max-height: 20px;">
+                    <span class="ms-2">info@tvminfotech.com</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <img src="assets/phone.png" alt="phone" class="img-fluid" style="max-height: 20px;">
+                    <span class="ms-2">+91 - 91508 71694</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light mt-3 sticky-top bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" routerLink="/home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/about">About</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" routerLink="/softwareServices" id="softwareDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SOFTWARE SERVIES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="softwareDropdown">
+                            <li><a class="dropdown-item" routerLink="">Option 1</a></li>
+                            <li><a class="dropdown-item" routerLInk="">Option 2</a></li>
+                            <li><a class="dropdown-item" routerLInk="">Option 3</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Dropdown for NETWORK SERVICES -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" routerLink="/networkServices" id="networkServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            NETWORK SERVICES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="networkServicesDropdown">
+                            <li><a class="dropdown-item" routerLink="#">Service A</a></li>
+                            <li><a class="dropdown-item" routerLink="#">Service B</a></li>
+                            <li><a class="dropdown-item" routerLink="#">Service C</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" routerLink="/enroll">ENROLL</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/contact">CONTACT US</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a routerLink="#"><img src="assets/facebook.png" alt="fb" class="img-fluid me-2" style="max-height: 30px;"></a>
+                    <a routerLink="#"><img src="assets/twitter2.png" alt="twit" class="img-fluid me-2" style="max-height: 30px;"></a>
+                    <a routerLink="#"><img src="assets/linkedin.png" alt="in" class="img-fluid" style="max-height: 30px;"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,56 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('/assets/laptop3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.h-1{
+    position: relative;
+    top: 150px;
+}
+.p-1{
+    position: relative;
+    top: 150px;
+
+}
+.midcontent{
+    background-color: rgb(29, 36, 31);
+    color: white;
+    padding: 30px;
+    height: 100px;
+}
+.custom-card {
+    border: 2px solid #18ddcd; /* Change border color */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .custom-card {
+  transition: all 0.3s ease; /* Smooth transition */
+  transform: scale(1); /* Initial scale */
+}
+
+.custom-card:hover {
+  background-color: #18ddcd; /* Change box color on hover */
+  border-color: #18ddcd; /* Change border color on hover */
+  color: white;
+  transform: scale(1.05); /* Slightly scale up the card */
+}
+
+/* Optional: Add a subtle shadow animation on hover */
+.custom-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.card-title:hover{
+  color: black;
+}
+
+  .logo {
+    width: 50px; /* Adjust size of the logo */
+    margin-top: 20px; /* Add some top margin */
+  }
+  .count{
+    background-color: rgb(127, 172, 255);
+  }
+  

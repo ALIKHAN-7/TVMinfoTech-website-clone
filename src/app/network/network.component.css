@@ -1,0 +1,47 @@
+.service-card {
+    background-color: #f8f9fa;
+    border: 1px solid #68696b;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures content doesn't overflow during animations */
+}
+
+.service-card img.card-logo {
+    max-height: 60px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-title:hover{
+    color: red;
+}
+
+.service-card:hover {
+    background-color: #e9ecef; /* Light grey background on hover */
+    transform: rotate(2deg) scale(1.05); /* Rotate and scale effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow for a lifted effect */
+    border: 1px solid red;
+}
+
+.service-card:hover img.card-logo {
+    transform: rotate(-10deg) scale(1.2); /* Rotate and enlarge the logo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow to the logo */
+}
+
+
+.logo {
+    width: 50px; /* Adjust size of the logo */
+    margin-top: 20px; /* Add some top margin */
+  }
+  .custom-card {
+    border: 2px solid #18ddcd; /* Change border color */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    background-color: #18ddcd; /* Change box color on hover */
+    border-color: #18ddcd; 
+    color: white;/* Change border color on hover */
+  }

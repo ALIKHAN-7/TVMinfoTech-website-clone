@@ -1,0 +1,69 @@
+<div class="mt-4">
+    <div class="row">
+        <div class="col-12">
+            <img src="assets/enrollbg.jpg" alt="img" class="img-fluid w-100">
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-12 bg-dark text-white p-3">
+            <a routerLink="/home" class="text-white">HOME</a> &gt; Enrollment
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-8 offset-md-2">
+            <form [formGroup]="appForm" (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label for="fullName" class="form-label fw-bold text-dark">Full Name:</label>
+                    <input type="text" id="fullName" class="form-control w-50" formControlName="fullName">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-bold text-dark">Email Address:</label>
+                    <input type="email" id="email" class="form-control w-50" formControlName="email">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="mobile" class="form-label fw-bold text-dark">Mobile Number:</label>
+                    <input type="number" id="mobile" class="form-control w-50" formControlName="mobile">
+                </div>
+
+                <div class="mb-3">
+                    <label for="collegeName" class="form-label fw-bold text-dark">College Name:</label>
+                    <input type="text" id="collegeName" class="form-control w-50" formControlName="collegeName">
+                </div>
+
+                <div class="mb-3">
+                    <label for="interestedTech" class="form-label fw-bold text-dark">Interested Technology:</label>
+                    <select id="interestedTech" class="form-select w-50" formControlName="interestedTech">
+                        <option value="softwareTechnology">SOFTWARE TECHNOLOGY</option>
+                        <option value="networkTechnology">NETWORK TECHNOLOGY</option>
+                        <option value="awsCloud">AWS CLOUD</option>
+                        <option value="ccieSecurity">CCIE SECURITY</option>
+                        <option value="ccieRS">CCIE R&S</option>
+                        <option value="microServerTechnology">MICRO SERVER TECHNOLOGY</option>
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="comments" class="form-label fw-bold text-dark">Anything you want to mention:</label>
+                    <textarea id="comments" class="form-control w-50" rows="4" formControlName="comments"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold text-dark">Upload Your Resume:</label>
+                    <div class="input-group w-50">
+                        <input type="file" class="form-control" id="resumeUpload" formControlName="resumeUpload">
+                    </div>
+                </div>
+
+                <div class="d-grid">
+                    <input type="submit" class="btn btn-primary w-50" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <app-quick-links></app-quick-links>
+    <app-footer></app-footer>
+</div>

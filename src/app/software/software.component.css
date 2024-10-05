@@ -1,0 +1,57 @@
+.service-card {
+    background-color: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    max-height: 80px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.service-card:hover {
+    border-color: #dc3545;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+    transform: rotate(-3deg) scale(1.05);
+}
+.cardtile:hover{
+    color: red;
+}
+
+.service-card:hover img {
+    transform: scale(1.2); 
+    filter: brightness(1.2); 
+}
+
+.custom-card {
+    border: 2px solid #18ddcd; 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    overflow: hidden; 
+    position: relative;
+}
+
+.custom-card:hover {
+    background-color: #18ddcd; 
+    border-color: #18ddcd;
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 50px;
+    margin-top: 20px; 
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.custom-card:hover .logo {
+    transform: scale(1.2); 
+    filter: brightness(1.2);
+}
+.card-title:hover{
+    color: white;
+}
+
